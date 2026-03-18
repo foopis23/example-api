@@ -6,6 +6,11 @@ app.get('/', (req, res) => {
 	res.send('Hello World!');
 });
 
+app.post('/login', (req, res) => {
+	// todo: add login logic
+	res.send('Login successful!');
+});
+
 app.listen(port, () => {
 	console.log(`Example API listening at http://localhost:${port}`);
 });
