@@ -1,0 +1,24 @@
+{
+  "name": "example-api",
+  "version": "1.0.0",
+  "description": "this is an example api.",
+  "homepage": "https://github.com/foopis23/example-api#readme",
+  "bugs": {
+    "url": "https://github.com/foopis23/example-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foopis23/example-api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
